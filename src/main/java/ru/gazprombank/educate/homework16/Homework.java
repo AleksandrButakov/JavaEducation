@@ -32,10 +32,10 @@ public class Homework {
                 if (ch[i] == '*') {
                     // пропускаем присваивание символа строке
                 } else {
-                    if (i < textLength-1 && ch[i+1] == '*') {
+                    if (i < textLength - 1 && ch[i + 1] == '*') {
                         // пропускаем присваивание символа строке
                     } else {
-                        if (i > 0 && ch[i-1] == '*') {
+                        if (i > 0 && ch[i - 1] == '*') {
                             // пропускаем присваивание символа строке
                         } else {
                             newLine += Character.toString(ch[i]);
