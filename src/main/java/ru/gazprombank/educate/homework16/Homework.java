@@ -2,8 +2,6 @@ package ru.gazprombank.educate.homework16;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.sql.SQLOutput;
-
 public class Homework {
     /*
     Строка со звездочками
@@ -48,19 +46,5 @@ public class Homework {
         }
         return newLine;
     }
-
-    /*
-            //Преобразуем строку в массив char'ов
-        String string = "12345";
-        char[] chArray = string.toCharArray();
-        System.out.println("Строку в массив символов: " + Arrays.toString(chArray));
-        //String в char
-        char char = string.charAt(1);
-        System.out.println("String в char: " + c);
-
-        //char в String
-        String s = Character.toString(c);
-        System.out.println("char в String: " + s);
-     */
 
 }
