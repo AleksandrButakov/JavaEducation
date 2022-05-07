@@ -16,7 +16,27 @@ public class Homework {
     ```
      */
 
-    public static void main(String[] args) {
+    public static int count = 0;
+    public static int index = 0;
+    public static String s;
 
+    public static void main(String[] args) {
+        String str = "y";
+        System.out.println("Number = " + yoYo(str));
     }
+
+    public static int yoYo(String str) {
+        if (str.length() > 0) {
+            if (index + 1 < str.length()) {
+                s = str.substring(index, index + 2);
+                if (s.equals("yo")) {
+                    count++;
+                }
+                index++;
+                yoYo(str);
+            }
+        }
+        return count;
+    }
+
 }
