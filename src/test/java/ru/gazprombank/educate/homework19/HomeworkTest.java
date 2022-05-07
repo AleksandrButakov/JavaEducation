@@ -47,11 +47,11 @@ public class HomeworkTest {
         assertEquals(0, fine, "Expected string: 0 actual " + fine);
     }
 
-    @DisplayName("str: 'xyz'; answer = 1")
+    @DisplayName("str: 'xyz'; answer = 0")
     @Test
     void test4() {
         int fine = calculateLongestStreakMethod.invokeStaticMethod("xyz");
-        assertEquals(1, fine, "Expected string: 1 actual " + fine);
+        assertEquals(0, fine, "Expected string: 0 actual " + fine);
     }
 
     @DisplayName("str: 'xxyz'; answer = 2")
