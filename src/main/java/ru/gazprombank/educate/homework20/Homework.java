@@ -21,7 +21,7 @@ public class Homework {
     public static String s;
 
     public static void main(String[] args) {
-        String str = "y";
+        String str = "yo68yo77";
         System.out.println("Number = " + yoYo(str));
     }
 
